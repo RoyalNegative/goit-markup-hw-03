@@ -3,6 +3,8 @@ body {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
@@ -29,9 +31,26 @@ span {
     color: #2e2f42;
 }
 
-.nav-item{
-    color: #2e2f42
+header{
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items ul{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item{
+    color: #2e2f42;
+}
+
 
 header a {
     color: #434455;
@@ -48,11 +67,24 @@ header a:focus {
     font-style: normal;
 }
 
+.contact ul{
+    display: flex;
+    gap: 40px;
+}
+
 .contact-item{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .hero {
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
     background-color: #2E2F42;
     color: white;
 }
@@ -60,8 +92,9 @@ header a:focus {
 .hero .hero-text {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
+    height: 120px;
+    width: 496px;
 }
 
 .hero .hero-button {
@@ -72,6 +105,9 @@ header a:focus {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    width: 169px;
+    height: 56px;
+    border-radius: 4%;
 }
 
 .hero .hero-button:hover,
@@ -81,6 +117,27 @@ header a:focus {
 }
 
 /* About us section */
+
+.hidden{
+    display: none;
+}
+.about-us{
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-us ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.aboutus-item{
+    width: 264px; 
+    height: 104px;
+}
 .item-header{
     font-weight: 500;
     font-size: 20px;

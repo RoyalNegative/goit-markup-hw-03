@@ -213,10 +213,21 @@ header a:focus {
     color: #2e2f42;
 }
 
-.portfolio-container{
+.portfolio-container {
     height: 1000px;
+    
 }
-/* Footer section */
+.portfolio-container .op-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 .portfolio-card-text {
 }
 
@@ -245,10 +256,19 @@ header a:focus {
     background-color: #2E2F42;
     color: white;
     height: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .footer-container{
+    width: 264px;
+    height: 112px;
+    line-height: 16px;
+    margin-right: 56px;
+    margin-left: 56px;
 }
+
 .footer span{
     color: white;
 }

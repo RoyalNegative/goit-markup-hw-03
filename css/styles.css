@@ -35,23 +35,38 @@ span {
     color: #2e2f42;
 }
 
-header{
+.headerctn{
     height: 72px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
 
 .nav-items{
     display: flex;
+    align-items: center;
 }
 
-.nav-items ul{
+.logo{
+    margin-right: 76px;
+}
+
+.navigation{
     display: flex;
     gap: 40px;
 }
 
 .nav-item{
+    padding: 24px 0;
     color: #2e2f42;
 }
 
@@ -71,7 +86,7 @@ header a:focus {
     font-style: normal;
 }
 
-.contact ul{
+.contact-container{
     display: flex;
     gap: 40px;
 }
@@ -80,6 +95,8 @@ header a:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
 
 .hero {
     height: 600px;

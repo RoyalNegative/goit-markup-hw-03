@@ -164,12 +164,10 @@ header a:focus {
 .our-team {
     background-color: #F4F4FD;
     height: 732px;
-    display: flex;
-    flex-direction: column;
+    padding: 120px 0;
 }
 
 .our-team-header {
-    margin-top: 120px;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
@@ -179,20 +177,29 @@ header a:focus {
     color: #2e2f42;
 }
 
-.our-team ul {
+.ot-items {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 
-.our-team ul .ot-item{
+.ot-item{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
     text-align: center;
-    width: 264px;
-    height: 380px;
+}
+
+.otitem-text {
+    padding: 32px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .otitem-header{
+    text-align: center;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -200,11 +207,11 @@ header a:focus {
     color: #2e2f42;
 }
 
-.otitem-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.otitem-p {
+    text-align: center;
 }
+
+
 
 /* Our Portfolio section */
 .our-portfolio{

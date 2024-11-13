@@ -180,7 +180,7 @@ header a:focus {
 .ot-items {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 24px;
 }
 
 .ot-item{
@@ -216,7 +216,8 @@ header a:focus {
 /* Our Portfolio section */
 .our-portfolio{
     height: 1240px;
-    padding: 120px;
+    padding: 120px 0;
+
 }
 .portfolio-header{
     line-height: 1.11;
@@ -224,25 +225,26 @@ header a:focus {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.portfolio-container {
-    height: 1000px;
-    
-}
-.portfolio-container .op-items{
+.op-items{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
+    row-gap: 48px;
 }
 
-
-
-.portfolio-card-text {
+.portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
+
 
 .portfolio-header {
     font-size: 36px;
@@ -266,22 +268,16 @@ header a:focus {
 
 /* Footer section */
 .footer {
+    padding: 100px 0;
     background-color: #2E2F42;
     color: white;
     height: 312px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
 }
 
-.footer-container{
-    width: 264px;
-    height: 112px;
-    line-height: 16px;
-    margin-right: 56px;
-    margin-left: 56px;
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
 }
-
 .footer span{
     color: white;
 }

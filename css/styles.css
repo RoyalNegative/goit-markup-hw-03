@@ -219,6 +219,10 @@ header a:focus {
     padding: 120px 0;
 
 }
+
+.op-container{
+    margin-bottom: 8px;
+}
 .portfolio-header{
     line-height: 1.11;
     text-align: center;

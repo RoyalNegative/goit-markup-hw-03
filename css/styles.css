@@ -220,8 +220,11 @@ header a:focus {
 
 }
 
-.op-container{
+.our-portfolio div{
     margin-bottom: 8px;
+}
+.op-container{
+    margin-bottom: 100px;
 }
 .portfolio-header{
     line-height: 1.11;
